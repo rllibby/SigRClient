@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B483F5A7-FAC0-4C55-8BB0-AA7C353025BB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SigRClient</RootNamespace>
+    <AssemblyName>SigRClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Client, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.1.1.1\lib\net45\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignalRClient\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="SignalRClient\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="SignalRClient\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="SignalRClient\SignalRClient.cs" />
+    <Compile Include="SigRConsole\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="SigRConsole\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="SigRConsole\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="SigRConsole\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="SignalRClient\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="SignalRClient\obj\Debug\SignalRClient.csprojResolveAssemblyReference.cache" />
+    <None Include="SignalRClient\packages.config" />
+    <None Include="SigRConsole\App.config" />
+    <None Include="SigRConsole\bin\Debug\SigRConsole.exe.config" />
+    <None Include="SigRConsole\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="SigRConsole\obj\Debug\SigRConsole.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SignalRClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll" />
+    <Content Include="SignalRClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml" />
+    <Content Include="SignalRClient\bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="SignalRClient\bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="SignalRClient\bin\Debug\SignalRClient.dll" />
+    <Content Include="SignalRClient\bin\Debug\SignalRClient.pdb" />
+    <Content Include="SignalRClient\obj\Debug\SignalRClient.csproj.FileListAbsolute.txt" />
+    <Content Include="SignalRClient\obj\Debug\SignalRClient.dll" />
+    <Content Include="SignalRClient\obj\Debug\SignalRClient.pdb" />
+    <Content Include="SignalRClient\SignalRClient.csproj" />
+    <Content Include="SigRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.dll" />
+    <Content Include="SigRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.xml" />
+    <Content Include="SigRConsole\bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="SigRConsole\bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="SigRConsole\bin\Debug\SignalRClient.dll" />
+    <Content Include="SigRConsole\bin\Debug\SignalRClient.pdb" />
+    <Content Include="SigRConsole\bin\Debug\SigRConsole.exe" />
+    <Content Include="SigRConsole\bin\Debug\SigRConsole.pdb" />
+    <Content Include="SigRConsole\obj\Debug\SigRConsole.csproj.FileListAbsolute.txt" />
+    <Content Include="SigRConsole\obj\Debug\SigRConsole.exe" />
+    <Content Include="SigRConsole\obj\Debug\SigRConsole.pdb" />
+    <Content Include="SigRConsole\SigRConsole.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SignalRClient\bin\Release\" />
+    <Folder Include="SignalRClient\obj\Debug\TempPE\" />
+    <Folder Include="SignalRClient\Properties\" />
+    <Folder Include="SigRConsole\obj\Debug\TempPE\" />
+    <Folder Include="SigRConsole\Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

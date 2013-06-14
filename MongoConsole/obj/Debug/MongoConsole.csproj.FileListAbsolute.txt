@@ -1,0 +1,12 @@
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe.config
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoConsole.pdb
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoSearch.dll
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.dll
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.dll
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoSearch.pdb
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.xml
+C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.xml
+C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.exe
+C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.pdb

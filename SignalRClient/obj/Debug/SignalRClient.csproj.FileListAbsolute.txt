@@ -1,0 +1,9 @@
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\SignalRClient.dll
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\SignalRClient.pdb
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Dev\Playground\SigRClient\SignalRClient\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\Playground\SigRClient\SignalRClient\obj\Debug\SignalRClient.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\SigRClient\SignalRClient\obj\Debug\SignalRClient.dll
+C:\Dev\Playground\SigRClient\SignalRClient\obj\Debug\SignalRClient.pdb

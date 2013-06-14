@@ -1,0 +1,16 @@
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.dll
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.pdb
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.csprojResolveAssemblyReference.cache
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.dll
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.pdb
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.dll
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\bin\Debug\Microsoft.Practices.Prism.dll
+c:\SpeakToMe\SpeakToMe\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.pdb
+C:\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.dll
+C:\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.pdb
+C:\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.dll
+C:\SigRClient\SpeakToMe.Models\bin\Debug\Microsoft.Practices.Prism.dll
+C:\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.pdb
+C:\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.csprojResolveAssemblyReference.cache
+C:\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.dll
+C:\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.pdb
