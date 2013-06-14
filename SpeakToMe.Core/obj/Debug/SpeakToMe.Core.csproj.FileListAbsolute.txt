@@ -21,3 +21,8 @@ C:\SigRClient\SpeakToMe.Core\bin\Debug\SpeakToMe.Core.pdb
 C:\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.csprojResolveAssemblyReference.cache
 C:\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.dll
 C:\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Core\bin\Debug\SpeakToMe.Core.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Core\bin\Debug\SpeakToMe.Core.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.csprojResolveAssemblyReference.cache
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Core\obj\Debug\SpeakToMe.Core.pdb

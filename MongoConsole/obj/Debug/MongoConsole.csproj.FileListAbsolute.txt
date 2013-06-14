@@ -10,3 +10,15 @@ C:\Dev\Playground\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.xml
 C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
 C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.exe
 C:\Dev\Playground\SigRClient\MongoConsole\obj\Debug\MongoConsole.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe.config
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoConsole.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoSearch.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoSearch.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.xml
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.xml
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.exe
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.pdb

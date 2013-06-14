@@ -37,3 +37,12 @@ C:\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Speech.pdb
 C:\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.csprojResolveAssemblyReference.cache
 C:\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.dll
 C:\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Presence.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Presence.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Core.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Speech.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Core.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Speech.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.csprojResolveAssemblyReference.cache
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.pdb

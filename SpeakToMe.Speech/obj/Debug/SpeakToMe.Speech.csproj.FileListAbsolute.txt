@@ -29,3 +29,10 @@ C:\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.pdb
 C:\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.csprojResolveAssemblyReference.cache
 C:\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.dll
 C:\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Speech.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Speech.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.csprojResolveAssemblyReference.cache
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.pdb

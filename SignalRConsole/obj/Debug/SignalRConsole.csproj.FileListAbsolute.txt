@@ -33,3 +33,24 @@ C:\SigRClient\SignalRConsole\bin\Debug\Newtonsoft.Json.xml
 C:\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.csprojResolveAssemblyReference.cache
 C:\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.exe
 C:\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.exe.config
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.exe
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRClient.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRResponder.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Speech.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Core.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Presence.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRClient.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SignalRResponder.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Speech.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Core.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Presence.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.csprojResolveAssemblyReference.cache
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.exe
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.pdb
