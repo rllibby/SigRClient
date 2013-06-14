@@ -55,8 +55,9 @@
     <Compile Include="RuleManager.cs" />
     <Compile Include="RuleMethod.cs" />
     <Compile Include="Rules\ItemRules.cs" />
+    <Compile Include="Rules\PhoneNoRules.cs" />
     <Compile Include="TokenManager.cs" />
-    <Compile Include="Tokens\Nouns\TokenEmail.cs" />
+    <Compile Include="Tokens\Nouns\TokenCustomer.cs" />
     <Compile Include="Tokens\Nouns\TokenItem.cs" />
     <Compile Include="Tokens\Nouns\TokenNeither.cs" />
     <Compile Include="Tokens\Nouns\TokenNews.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Tokens\Nouns\TokenYesNo.cs" />
     <Compile Include="Tokens\Prepositions\TokenPreposition.cs" />
     <Compile Include="Tokens\Queries\TokenQuantity.cs" />
+    <Compile Include="Tokens\Queries\TokenQueryPhoneNo.cs" />
     <Compile Include="Tokens\Queries\TokenRequest.cs" />
     <Compile Include="Tokens\Rules\DateRules.cs" />
     <Compile Include="Tokens\Temporal\TemporalParts\TokenDayOfWeek.cs" />

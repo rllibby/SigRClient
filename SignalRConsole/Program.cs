@@ -13,7 +13,6 @@ namespace SigRConsole
         {
             var sRClient = new SignalRClient.SignalRClient();
 
-            //sRClient.ChannelURL = "http://localhost:63102/";
             sRClient.ChannelURL = "http://swmsignalrsite.azurewebsites.net/";
             sRClient.HubName = "stockTicker";
             sRClient.HubConnect();

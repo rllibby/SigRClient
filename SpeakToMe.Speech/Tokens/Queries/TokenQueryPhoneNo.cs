@@ -12,13 +12,11 @@ namespace SpeakToMe.Speech.Tokens.Queries
 {
     [DataContract]
     [Export(typeof(IParseToken))]
-    public class TokenQueryQuantity : Token, IParseToken
+    class TokenQueryPhoneNo : Token, IParseToken
     {
-        public TokenQueryQuantity()
+        public TokenQueryPhoneNo()
         {
-            Words = new List<string> { "sc", "stock check", "on hand", "on hand quantity", "quantity on hand", 
-                                       "onhand quantity", "quantity onhand", "quantity available", "available quantity", 
-                                       "in stock", "in stock amount", "in stock quantity"};
+            Words = new List<string> { "cp", "phone no", "phone no.", "phone number", "phonenumber"}; 
         }
 
         public override IEnumerable<TokenResult> Parse(string input, string UserId)
@@ -26,7 +24,7 @@ namespace SpeakToMe.Speech.Tokens.Queries
             var tokenResults = new List<TokenResult>();
             string remainder = string.Empty;
 
-            var results = base.Parse(input, UserId); 
+            var results = base.Parse(input, UserId);
 
             if (results.Any())
             {
@@ -54,17 +52,17 @@ namespace SpeakToMe.Speech.Tokens.Queries
 
                             if (remainder.Length > 0)
                             {
-                                results = new TokenItem().Parse(remainder, UserId);
+                                results = new TokenCustomer().Parse(remainder, UserId);
                                 if (results.Any())
                                 {
-                                    var tokenItem = results.OrderByDescending(token => token.Start).First();
+                                    var tokenCust = results.OrderByDescending(token => token.Start).First();
 
-                                    tokenItem.Start += startPos;
-                                    startPos = tokenItem.Start + tokenItem.Length + 1;
+                                    tokenCust.Start += startPos;
+                                    startPos = tokenCust.Start + tokenCust.Length + 1;
 
-                                    tokenResults.Add(tokenItem);
+                                    tokenResults.Add(tokenCust);
 
-                                    remainder = (remainder.Length <= tokenItem.Length) ? string.Empty : remainder.Substring(tokenItem.Length + 1);
+                                    remainder = (remainder.Length <= tokenCust.Length) ? string.Empty : remainder.Substring(tokenCust.Length + 1);
                                 }
                             }
                         }

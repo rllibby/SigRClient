@@ -8,11 +8,11 @@ namespace SpeakToMe.Speech.Tokens.Nouns
 {
     [DataContract]
     [Export(typeof(IParseToken))]
-    public class TokenEmail : Token, IParseToken
+    public class TokenCustomer : Token, IParseToken
     {
-        public TokenEmail()
+        public TokenCustomer()
         {
-            this.Words = new List<string> { "email" };
+            this.Words = new List<string> { "customer" };
         }
     }
 }

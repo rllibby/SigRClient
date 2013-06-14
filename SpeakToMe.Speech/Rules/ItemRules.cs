@@ -67,6 +67,13 @@ namespace SpeakToMe.Speech.Rules
             cContext.AskQuestion(CreateResponse(null));
         }
 
+        /* Eg: give me a stock check for item */
+        public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenQueryQuantity p2, TokenFor p3, TokenItem p4)
+        {
+            // Ask for which item
+            cContext.AskQuestion(CreateResponse(null));
+        }
+
         /* Eg: stock check XYZ */
         public static void ItemResponse(ConversationContext cContext, TokenQueryQuantity p1, TokenQuotedPhrase p2)
         {
@@ -91,5 +98,16 @@ namespace SpeakToMe.Speech.Rules
             cContext.Say(CreateResponse(p4.Value.ToString()), null);
         }
 
+        /* Eg: stock check for item XYZ */
+        public static void ItemResponse(ConversationContext cContext, TokenQueryQuantity p1, TokenFor p2, TokenItem p3, TokenQuotedPhrase p4)
+        {
+            cContext.Say(CreateResponse(p4.Value.ToString()), null);
+        }
+
+        /* Eg: give me a stock check for item XYZ */
+        public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenQueryQuantity p2, TokenFor p3, TokenItem p4, TokenQuotedPhrase p5)
+        {
+            cContext.Say(CreateResponse(p5.Value.ToString()), null);
+        }
     }
 }
