@@ -22,3 +22,15 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\b
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.exe
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoConsole\obj\Debug\MongoConsole.pdb
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe.config
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoConsole.exe
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoConsole.pdb
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoSearch.dll
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.dll
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.dll
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoSearch.pdb
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoDB.Driver.xml
+C:\Dev\Playground\summit\SigRClient\MongoConsole\bin\Debug\MongoDB.Bson.xml
+C:\Dev\Playground\summit\SigRClient\MongoConsole\obj\Debug\MongoConsole.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\MongoConsole\obj\Debug\MongoConsole.exe
+C:\Dev\Playground\summit\SigRClient\MongoConsole\obj\Debug\MongoConsole.pdb

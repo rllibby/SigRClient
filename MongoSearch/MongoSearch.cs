@@ -46,13 +46,27 @@ namespace MongoSearch
         }
 
         //public List<string> MongoSearchText(string textToSearch, out string context, out string entity, out string subEntity)
-        public List<string> MongoSearchText(string textToSearch, out string context, out string entity)
+        public List<string> MongoSearchText(string textToSearch, string entity)
         {
             List<string> result = new List<string>(); //this will be the key value for the top search
+            string monCollection;
 
             //if (textToSearch.Contains("quantity"))
-            context = "quantity";
-            entity = "items";
+            switch (entity.ToLower())
+            {
+                case "item":
+                    monCollection = "ci_item_abc";
+                    break;
+
+                case "customer":
+                    monCollection = "ar_customer_abc";
+                    break;
+
+                default:
+                    monCollection = "";
+                    break;
+            }
+
             /*
             subEntity = "";
             //first we want to search for keywords that will determine the context
@@ -74,7 +88,7 @@ namespace MongoSearch
             //for now we will just search the items collection and assume we want quantities
             var searchCommand = new CommandDocument
             {
-                { "text", "ci_item_abc"},
+                { "text", monCollection},
                 { "search", textToSearch}
             };
 
@@ -89,7 +103,7 @@ namespace MongoSearch
                 {
                     if (response["results"][loop]["score"] >= 2)
                     {
-                        result.Add(response["results"][loop]["obj"]["itemcode"].AsString);
+                        result.Add(response["results"][loop]["obj"]["_id"].AsString);
 
                     }
                     loop++;

@@ -13,9 +13,9 @@ namespace MongoConsole
             var mongoSearch = new MongoSearch.MongoSearch();
 
             List<string> result;
-            string ctx;
-            string ent;
-            result = mongoSearch.MongoSearchText("left hand drawer", out ctx, out ent);
+            
+            string ent = "item";
+            result = mongoSearch.MongoSearchText("left hand drawer", ent);
 
             result.ForEach(res => Console.WriteLine(res.ToString()));
 

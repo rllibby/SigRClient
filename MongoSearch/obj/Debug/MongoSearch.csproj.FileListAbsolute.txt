@@ -16,3 +16,12 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoSearch\bi
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoSearch\obj\Debug\MongoSearch.csprojResolveAssemblyReference.cache
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoSearch\obj\Debug\MongoSearch.dll
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\MongoSearch\obj\Debug\MongoSearch.pdb
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoSearch.dll
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoSearch.pdb
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoDB.Bson.dll
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoDB.Driver.dll
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoDB.Bson.xml
+C:\Dev\Playground\summit\SigRClient\MongoSearch\bin\Debug\MongoDB.Driver.xml
+C:\Dev\Playground\summit\SigRClient\MongoSearch\obj\Debug\MongoSearch.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\MongoSearch\obj\Debug\MongoSearch.dll
+C:\Dev\Playground\summit\SigRClient\MongoSearch\obj\Debug\MongoSearch.pdb
