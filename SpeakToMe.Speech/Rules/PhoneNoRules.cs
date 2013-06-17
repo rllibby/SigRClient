@@ -67,6 +67,34 @@ namespace SpeakToMe.Speech.Rules
             cContext.AskQuestion(CreateResponse(null));
         }
 
+        /* Eg: customer phone number */
+        public static void ItemResponse(ConversationContext cContext, TokenCustomer p1, TokenQueryPhoneNo p2)
+        {
+            // Ask for which customer
+            cContext.AskQuestion(CreateResponse(null));
+        }
+
+        /* Eg: customer phone number for */
+        public static void ItemResponse(ConversationContext cContext, TokenCustomer p1, TokenQueryPhoneNo p2, TokenFor p3)
+        {
+            // Ask for which customer
+            cContext.AskQuestion(CreateResponse(null));
+        }
+
+        /* Eg: give me customer phone number */
+        public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenCustomer p2, TokenQueryPhoneNo p3)
+        {
+            // Ask for which customer
+            cContext.AskQuestion(CreateResponse(null));
+        }
+
+        /* Eg: give me customer phone number for */
+        public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenCustomer p2, TokenQueryPhoneNo p3, TokenFor p4)
+        {
+            // Ask for which customer
+            cContext.AskQuestion(CreateResponse(null));
+        }
+
         /* Eg: give me phone number for customer */
         public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenQueryPhoneNo p2, TokenFor p3, TokenCustomer p4)
         {
@@ -106,6 +134,18 @@ namespace SpeakToMe.Speech.Rules
 
         /* Eg: give me phone number for customer XYZ */
         public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenQueryPhoneNo p2, TokenFor p3, TokenCustomer p4, TokenQuotedPhrase p5)
+        {
+            cContext.Say(CreateResponse(p5.Value.ToString()), null);
+        }
+
+        /* Eg: customer phone number for xyz*/
+        public static void ItemResponse(ConversationContext cContext, TokenCustomer p1, TokenQueryPhoneNo p2, TokenFor p3, TokenQuotedPhrase p4)
+        {
+            cContext.Say(CreateResponse(p4.Value.ToString()), null);
+        }
+
+        /* Eg: give me customer phone number for xyz*/
+        public static void ItemResponse(ConversationContext cContext, TokenRequest p1, TokenCustomer p2, TokenQueryPhoneNo p3, TokenFor p4, TokenQuotedPhrase p5)
         {
             cContext.Say(CreateResponse(p5.Value.ToString()), null);
         }

@@ -54,6 +54,7 @@
     <Compile Include="Questions\QuestionManager.cs" />
     <Compile Include="RuleManager.cs" />
     <Compile Include="RuleMethod.cs" />
+    <Compile Include="Rules\BalanceRules.cs" />
     <Compile Include="Rules\ItemRules.cs" />
     <Compile Include="Rules\PhoneNoRules.cs" />
     <Compile Include="TokenManager.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Tokens\Nouns\TokenYesNo.cs" />
     <Compile Include="Tokens\Prepositions\TokenPreposition.cs" />
     <Compile Include="Tokens\Queries\TokenQuantity.cs" />
+    <Compile Include="Tokens\Queries\TokenQueryBalance.cs" />
     <Compile Include="Tokens\Queries\TokenQueryPhoneNo.cs" />
     <Compile Include="Tokens\Queries\TokenRequest.cs" />
     <Compile Include="Tokens\Rules\DateRules.cs" />
