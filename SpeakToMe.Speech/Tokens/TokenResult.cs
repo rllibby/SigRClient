@@ -35,6 +35,9 @@ namespace SpeakToMe.Speech.Tokens
                                 typeof(Tokens.Queries.TokenRequest),
                                 typeof(Tokens.Queries.TokenQueryPhoneNo),
                                 typeof(Tokens.Queries.TokenQueryQuantity),
+                                typeof(Tokens.Queries.TokenQueryBalance),
+                                typeof(Tokens.Queries.TokenDoes),
+                                typeof(Tokens.Queries.TokenOwe)
                             };
         }
     }

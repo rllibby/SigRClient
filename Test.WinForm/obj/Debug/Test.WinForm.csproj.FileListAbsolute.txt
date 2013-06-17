@@ -32,3 +32,21 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\Test.WinForm\o
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.exe
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.pdb
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\Test.WinForm.exe.config
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\Test.WinForm.exe
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\Test.WinForm.pdb
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Core.dll
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Models.dll
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Presence.dll
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Speech.dll
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Core.pdb
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Models.pdb
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Presence.pdb
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\bin\Debug\SpeakToMe.Speech.pdb
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.Form1.resources
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.Properties.Resources.resources
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.csproj.GenerateResource.Cache
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.exe
+C:\Dev\Playground\summit\SigRClient\Test.WinForm\obj\Debug\Test.WinForm.pdb

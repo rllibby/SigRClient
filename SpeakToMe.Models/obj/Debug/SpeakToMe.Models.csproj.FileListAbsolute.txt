@@ -22,3 +22,11 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Mode
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.csprojResolveAssemblyReference.cache
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.dll
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Models.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\bin\Debug\SpeakToMe.Core.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Models\obj\Debug\SpeakToMe.Models.pdb

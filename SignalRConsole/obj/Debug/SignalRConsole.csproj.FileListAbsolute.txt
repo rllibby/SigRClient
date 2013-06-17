@@ -54,3 +54,24 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.csprojResolveAssemblyReference.cache
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.exe
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.exe.config
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.exe
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRConsole.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRClient.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRResponder.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Speech.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Core.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Presence.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRClient.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SignalRResponder.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Speech.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Core.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\SpeakToMe.Presence.pdb
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.exe
+C:\Dev\Playground\summit\SigRClient\SignalRConsole\obj\Debug\SignalRConsole.pdb

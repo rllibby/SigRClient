@@ -36,3 +36,10 @@ C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Spee
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.csprojResolveAssemblyReference.cache
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.dll
 C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Speech.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Speech.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.pdb
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.csprojResolveAssemblyReference.cache
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.dll
+C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.pdb
