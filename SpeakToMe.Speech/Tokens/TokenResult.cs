@@ -32,6 +32,7 @@ namespace SpeakToMe.Speech.Tokens
             return new List<Type>
                             {
                                 typeof(Token),
+                                typeof(Tokens.Misc.TokenEaserEgg),
                                 typeof(Tokens.Queries.TokenRequest),
                                 typeof(Tokens.Queries.TokenQueryPhoneNo),
                                 typeof(Tokens.Queries.TokenQueryQuantity),

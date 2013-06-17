@@ -28,6 +28,7 @@ namespace SpeakToMe.Speech
             Question question = null;
             List<Token> tokens = new List<Token>();
 
+            command = command.TrimEnd(new char[] {'.', '!', '?'});
             string localCommand = command.ToLower().Trim();
 
             context.Init(userId, mode, conversationId, callback);

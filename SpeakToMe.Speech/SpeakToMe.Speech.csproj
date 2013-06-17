@@ -55,9 +55,11 @@
     <Compile Include="RuleManager.cs" />
     <Compile Include="RuleMethod.cs" />
     <Compile Include="Rules\BalanceRules.cs" />
+    <Compile Include="Rules\EasterEggRule.cs" />
     <Compile Include="Rules\ItemRules.cs" />
     <Compile Include="Rules\PhoneNoRules.cs" />
     <Compile Include="TokenManager.cs" />
+    <Compile Include="Tokens\Misc\TokenEaserEgg.cs" />
     <Compile Include="Tokens\Nouns\TokenCustomer.cs" />
     <Compile Include="Tokens\Nouns\TokenItem.cs" />
     <Compile Include="Tokens\Nouns\TokenNeither.cs" />
@@ -116,7 +118,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tokens\Misc\" />
     <Folder Include="Tokens\Pronouns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
