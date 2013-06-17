@@ -43,3 +43,4 @@ C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\bin\Debug\SpeakToMe.Core.pd
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.csprojResolveAssemblyReference.cache
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.dll
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Speech\obj\Debug\SpeakToMe.Speech.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Speech\bin\Debug\Microsoft.Practices.Prism.dll

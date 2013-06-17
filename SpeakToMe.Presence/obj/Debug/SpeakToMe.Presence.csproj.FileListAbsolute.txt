@@ -55,3 +55,4 @@ C:\Dev\Playground\summit\SigRClient\SpeakToMe.Presence\bin\Debug\SpeakToMe.Speec
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.csprojResolveAssemblyReference.cache
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.dll
 C:\Dev\Playground\summit\SigRClient\SpeakToMe.Presence\obj\Debug\SpeakToMe.Presence.pdb
+C:\Users\rllibby\Documents\Visual Studio 2012\Projects\SigRClient\SpeakToMe.Presence\bin\Debug\Microsoft.Practices.Prism.dll
