@@ -35,6 +35,7 @@ namespace SpeakToMe.Speech.Tokens
                                 typeof(Tokens.Misc.TokenEaserEgg),
                                 typeof(Tokens.Queries.TokenRequest),
                                 typeof(Tokens.Queries.TokenQueryPhoneNo),
+                                typeof(Tokens.Queries.TokenQueryAddress),
                                 typeof(Tokens.Queries.TokenQueryQuantity),
                                 typeof(Tokens.Queries.TokenQueryBalance),
                                 typeof(Tokens.Queries.TokenDoes),

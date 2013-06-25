@@ -35,7 +35,6 @@ namespace SpeakToMe.Speech
             var tokenManager = ServiceLocator.GetInstance<TokenManager>();
             var buckets = tokenManager.TokenizeInput(localCommand, userId);
 
-
             question = this.QuestionManager.CheckForActiveQuestion(mode, userId, conversationId);
 
             if (question != null)
