@@ -16,8 +16,8 @@ namespace SpeakToMe.Speech.Tokens.Queries
     {
         public TokenRequest()
         {
-            Words = new List<string> { "show", "show me", "show me a", "show me the" , "give a", "give the", "give me", 
-                                       "give me a", "give me the"};
+            Words = new List<string> { "show", "show me", "show me a", "show me the", "perform a", "give a", "give the", "give me", 
+                                       "give me a", "give me the", "what is the"};
         }
 
         public override IEnumerable<TokenResult> Parse(string input, string UserId)

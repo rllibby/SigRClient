@@ -55,16 +55,20 @@ namespace SpeakToMe.Speech.Tokens.Queries
                             if (remainder.Length > 0)
                             {
                                 results = new TokenItem().Parse(remainder, UserId);
+
                                 if (results.Any())
                                 {
-                                    var tokenItem = results.OrderByDescending(token => token.Start).First();
+                                    var tokenItem = results.OrderBy(token => token.Start).First();
 
-                                    tokenItem.Start += startPos;
-                                    startPos = tokenItem.Start + tokenItem.Length + 1;
+                                    if (tokenItem.Start == 0)
+                                    {
+                                        tokenItem.Start += startPos;
+                                        startPos = tokenItem.Start + tokenItem.Length + 1;
 
-                                    tokenResults.Add(tokenItem);
+                                        tokenResults.Add(tokenItem);
 
-                                    remainder = (remainder.Length <= tokenItem.Length) ? string.Empty : remainder.Substring(tokenItem.Length + 1);
+                                        remainder = (remainder.Length <= tokenItem.Length) ? string.Empty : remainder.Substring(tokenItem.Length + 1);
+                                    }
                                 }
                             }
                         }
