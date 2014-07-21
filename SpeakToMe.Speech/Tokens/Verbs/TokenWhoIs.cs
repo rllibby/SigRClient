@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.Linq;
 using System.Runtime.Serialization;
+using SpeakToMe.Speech.Tokens.Queries;
 
 namespace SpeakToMe.Speech.Tokens.Verbs
 {
@@ -12,40 +13,56 @@ namespace SpeakToMe.Speech.Tokens.Verbs
     {
         public TokenWhoIs()
         {
-            this.Words = new List<string> { "who is", "who are", "who's", "who was", "who were" };
+            this.Words = new List<string> { "who is", "who are", "who are my", "who's", "who was", "who were" };
         }
 
         public override IEnumerable<TokenResult> Parse(string input, string UserId)
         {
-            var results = new List<TokenResult>();
+            var tokenResults = new List<TokenResult>();
 
             //if "in" is included, we'll defer this to TokenWhoWasIn
             if (input.IndexOf("who is in") > -1 || input.IndexOf("who was in") > -1)
             {
-                return results;
+                return tokenResults;
             }
 
-            results.AddRange(base.Parse(input, UserId));
+            var results = base.Parse(input, UserId);
 
-            if (results.Count > 0)
+            if (results.Any())
             {
-                var searchTermResult = new TokenResult
+                var tokenRequest = results.OrderByDescending(qty => qty.Length).First();
+
+                if (tokenRequest.Start == 0)
                 {
-                    Length = input.Length - results[0].Length - 1,
-                    Start = results[0].Start + results[0].Length + 1,
-                    Token =
-                        new TokenQuotedPhrase
+                    tokenResults.Add(tokenRequest);
+
+                    var remainder = input.Substring(tokenRequest.Start + tokenRequest.Length + 1).Trim();
+
+                    var topResults = new TokenQueryTop().Parse(remainder, UserId);
+
+                    if (topResults.Any())
+                    {
+                        tokenResults.AddRange(topResults);
+                        return tokenResults;
+                    }
+
+                    var searchTermResult = new TokenResult
+                    {
+                        Length = input.Length - tokenRequest.Length - 1,
+                        Start = tokenRequest.Start + tokenRequest.Length + 1,
+                        Token = new TokenQuotedPhrase
                         {
-                            Value =
-                                input.Substring(results[0].Start + results[0].Length + 1)
+                            Value = input.Substring(tokenRequest.Start + tokenRequest.Length + 1)
                         },
-                    TokenType = typeof(TokenQuotedPhrase).ToString(),
-                    Value = input.Substring(results[0].Start + results[0].Length + 1)
-                };
-                results.Add(searchTermResult);
+                        TokenType = typeof(TokenQuotedPhrase).ToString(),
+                        Value = input.Substring(tokenRequest.Start + tokenRequest.Length + 1)
+                    };
+
+                    tokenResults.Add(searchTermResult);
+                }
             }
 
-            return results;
+            return tokenResults;
         }
     }
 }

@@ -56,12 +56,16 @@
     <Compile Include="RuleMethod.cs" />
     <Compile Include="Rules\AddressRules.cs" />
     <Compile Include="Rules\BalanceRules.cs" />
+    <Compile Include="Rules\CashFlowRules.cs" />
     <Compile Include="Rules\EasterEggRule.cs" />
     <Compile Include="Rules\ItemRules.cs" />
     <Compile Include="Rules\PhoneNoRules.cs" />
+    <Compile Include="Rules\TopRules.cs" />
     <Compile Include="TokenManager.cs" />
     <Compile Include="Tokens\Misc\TokenEaserEgg.cs" />
+    <Compile Include="Tokens\Nouns\TokenCashFlow.cs" />
     <Compile Include="Tokens\Nouns\TokenCustomer.cs" />
+    <Compile Include="Tokens\Nouns\TokenCustomers.cs" />
     <Compile Include="Tokens\Nouns\TokenItem.cs" />
     <Compile Include="Tokens\Nouns\TokenNeither.cs" />
     <Compile Include="Tokens\Nouns\TokenNews.cs" />
@@ -76,7 +80,9 @@
     <Compile Include="Tokens\Queries\TokenQuantity.cs" />
     <Compile Include="Tokens\Queries\TokenQueryAddress.cs" />
     <Compile Include="Tokens\Queries\TokenQueryBalance.cs" />
+    <Compile Include="Tokens\Queries\TokenQueryCashFlow.cs" />
     <Compile Include="Tokens\Queries\TokenQueryPhoneNo.cs" />
+    <Compile Include="Tokens\Queries\TokenQueryTop.cs" />
     <Compile Include="Tokens\Queries\TokenRequest.cs" />
     <Compile Include="Tokens\Rules\DateRules.cs" />
     <Compile Include="Tokens\Temporal\TemporalParts\TokenDayOfWeek.cs" />

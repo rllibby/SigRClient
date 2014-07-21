@@ -96,14 +96,14 @@ namespace Test.WinForm
         {
             long st = Environment.TickCount;
 
-            for (int i = 0; i < 100000; i++)
+            for (int i = 0; i < 5000; i++)
             {
                 _Presence.ProcessCommand("Give me the available quantity for xyz", UserId, ConversationId, new CallbackWrapper(this.OnResponse));
             }
 
             long et = Environment.TickCount - st;
 
-            MessageBox.Show(string.Format("{0} ms to process 100,000 requests", et));
+            MessageBox.Show(string.Format("{0} ms to process 5,000 requests", et));
         }
     }
 }
