@@ -42,7 +42,7 @@ namespace SpeakToMe.Speech.Tokens.Verbs
 
                     if (topResults.Any())
                     {
-                        tokenResults.AddRange(topResults);
+                        //tokenResults.AddRange(topResults);
                         return tokenResults;
                     }
 
